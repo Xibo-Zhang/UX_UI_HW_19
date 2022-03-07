@@ -1,0 +1,121 @@
+body {
+  font-family: 'Montserrat', serif;
+}
+
+
+.navigation {
+  display: flex;
+  background-color: rgb(207, 220, 230);
+  height: 100px;
+}
+.navigation img {
+  width: 80px;
+  margin-left: 50px;
+  margin-top: 9px;
+}
+.inline-block {
+  display: inline-flex;
+  padding-left: 5%;
+}
+
+#inline-block {
+  left: 0;
+  line-height: 200px;
+  margin-top: -65px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+
+}
+
+.selfie {
+ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 40%;
+
+}
+
+
+#headline {
+  background-color: rgba(255,255,255,0.8);
+  border-bottom: 5px solid #465969;
+  padding: 25px;
+  width: 720px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -100px;
+
+}
+
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+
+.text {
+  background-color:rgb(207, 220, 230);
+  height: 375px;
+  width: 500px;
+  text-align: center;
+}
+
+.text h1{
+   margin-top: 20%;
+}
+
+
+.footer {
+  margin-top: 100px;
+  display: inset-block;
+  background-color: rgb(207, 220, 230);
+  height: 100px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+}
+.eachSkill {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  margin-top: 100px;
+  align-items: baseline;
+  background-color: rgb(235, 235, 235);
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+h2 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
+}
+p {
+  font-size: 14px;
+}
+.eachSkill p{
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+.allProjects {
+margin-left: 315px;
+margin-right: 315px;
+margin-top: 100px;
+}
+.project {
+display: flex;
+justify-content: space-between;
+font-size: 38px;
+}
+
